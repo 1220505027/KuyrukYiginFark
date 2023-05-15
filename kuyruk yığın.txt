@@ -1,0 +1,34 @@
+Yığın (Stack):
+
+.Yığın, LIFO (Son giren, ilk çıkar) prensibiyle çalışır. En son eklenen eleman, yığının en üstüne eklenir ve yığının en üstündeki eleman çıkarıldığında ise ondan önceki eleman en üstteki eleman haline gelir.
+
+.Bir yığın, genellikle üst üste yerleştirilmiş tabaklar gibi düşünülebilir. En son eklenen tabaka, yığının en üstündeki tabaka olur ve yığının en üstündeki tabaka çıkarıldığında altındaki tabaka görünür hale gelir.
+
+.Bu nedenle, yığın veri yapısında elemanlara erişim sadece en üstteki elemandan başlar ve yığına eklenen veya yığından çıkarılan eleman her zaman en üstteki elemandır.
+
+.Yığın, verilerin geri alınması gereken durumlarda kullanışlıdır. Örneğin, fonksiyon çağrıları, derleme işlemleri, geri alma işlemleri gibi senaryolarda sıklıkla kullanılır.
+
+Kuyruk (Queue):
+
+.Kuyruk, FIFO (İlk giren, ilk çıkar) prensibiyle çalışır. En son eklenen eleman, kuyruğun sonuna eklenir ve kuyruğun başındaki eleman çıkarıldığında ise ondan sonraki eleman baş eleman haline gelir.
+
+.Bir kuyruk, bir sıraya giren insanların veya arabaların düşünülebileceği bir sistem gibi işler. İlk giren ilk çıkar ve son giren en son çıkar.
+
+.Kuyruk veri yapısında elemanlara erişim, en baştaki elemandan başlar ve kuyruğa eklenen veya kuyruktan çıkarılan eleman her zaman en baştaki elemandır.
+
+.Kuyruk, verilerin sırayla işlenmesi gereken senaryolarda kullanışlıdır. Örneğin, işlem sıralaması, istemci-sunucu iletişimi, iş parçacığı havuzları gibi durumlarda sıklıkla kullanılır.
+
+Yığın ve Kuyruk arasındaki temel farklar:
+
+İşleyiş prensibi: Yığın, LIFO prensibiyle çalışırken, Kuyruk, FIFO prensibiyle çalışır.
+
+Erişim sırası: Yığın veri yapısında erişim en üstteki elemandan başlar ve çıkarılan eleman her zaman en üstteki elemandır. Kuyruk veri yapısında ise erişim en baştaki elemandan başlar ve çıkarılan eleman her zaman en baştaki elemandır.
+
+Ekleme ve çıkarma işlemleri: Yığın veri yapısında eleman ekleme ve çıkarma işlemleri sadece yığının en üstünden gerçekleştirilir. Kuyruk veri yapısında ise elemanlar kuyruğun sonuna eklenir ve baştan çıkarılır.
+
+Veri işleme önceliği: Yığın veri yapısında en son eklenen veri en önce işlenirken, kuyruk veri yapısında en önce eklenen veri en önce işlenir.
+
+Uygun kullanım durumları: Yığın, geri alma işlemleri, derleme işlemleri gibi durumlarda kullanışlıdır. Kuyruk ise işlem sıralaması, istemci-sunucu iletişimi gibi senaryolarda tercih edilir.
+
+
+
